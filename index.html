@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="/main.js"></script>
+  </head>
+  <body
+    style="
+      background-color: #121212;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+      margin: 0;
+    "
+  >
+    <div>
+      <canvas style="border: 1px solid gray" id="vizCanvas" width="600" height="400"></canvas>
+      <div class="slidecontainer">
+        <input type="range" min="0" max="180" value="0" class="slider" id="lowRange" />
+      </div>
+    </div>
+  </body>
+</html>
